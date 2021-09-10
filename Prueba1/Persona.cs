@@ -6,11 +6,17 @@ using System.Threading.Tasks;
 
 namespace Prueba1
 {
-    class Persona
+    public class Persona
     {
         String Cedula;
         String Nombre;
         int Edad;
         int Fecha_Nacimiento;
+        public Persona(String Ce, String Nom, int A)
+        {
+            Nombre = Nom;
+            Cedula = Ce;
+            Fecha_Nacimiento = A;
+        }
     }
 }
