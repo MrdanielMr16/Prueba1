@@ -12,5 +12,11 @@ namespace Prueba1
         String Nombre;
         int Edad;
         int Fecha_Nacimiento;
+
+        private int CalcularEdad()
+        {
+            Edad = Fecha_Nacimiento - 2021;
+            return Edad;
+        }
     }
 }
