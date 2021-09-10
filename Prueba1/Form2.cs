@@ -24,5 +24,5 @@ namespace Prueba1
             this.Dispose();
         }
         
-}
+    }
 }
