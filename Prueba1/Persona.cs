@@ -24,5 +24,11 @@ namespace Prueba1
             Edad = Fecha_Nacimiento - 2021;
             return Edad;
         }
+
+        private String GetCedula(String Ce)
+        {
+            Ce = Cedula;
+            return Ce;
+        }
     }
 }
