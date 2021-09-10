@@ -19,7 +19,7 @@ namespace Prueba1
             Fecha_Nacimiento = A;
         }
 
-        private int CalcularEdad()
+        public int CalcularEdad()
         {
             Edad = Fecha_Nacimiento - 2021;
             return Edad;

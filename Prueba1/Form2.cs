@@ -15,12 +15,14 @@ namespace Prueba1
         public Form2()
         {
             InitializeComponent();
+            Persona p = new Persona("1000578207", "Daniel", 2000);
+            p.CalcularEdad();
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
             this.Dispose();
         }
-    }
+        
+}
 }
