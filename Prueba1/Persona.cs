@@ -24,5 +24,9 @@ namespace Prueba1
             Edad = Fecha_Nacimiento - 2021;
             return Edad;
         }
+        private string GetNombre()
+        {
+            return Nombre;
+        }
     }
 }
