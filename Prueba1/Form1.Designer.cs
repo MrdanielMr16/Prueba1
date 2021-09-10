@@ -29,13 +29,25 @@ namespace Prueba1
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnFormulario2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // btnFormulario2
+            // 
+            this.btnFormulario2.Location = new System.Drawing.Point(221, 452);
+            this.btnFormulario2.Name = "btnFormulario2";
+            this.btnFormulario2.Size = new System.Drawing.Size(89, 41);
+            this.btnFormulario2.TabIndex = 0;
+            this.btnFormulario2.Text = "Formulario 2";
+            this.btnFormulario2.UseVisualStyleBackColor = true;
+            this.btnFormulario2.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(564, 505);
+            this.Controls.Add(this.btnFormulario2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -43,6 +55,8 @@ namespace Prueba1
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnFormulario2;
     }
 }
 

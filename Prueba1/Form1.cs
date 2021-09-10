@@ -16,5 +16,11 @@ namespace Prueba1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 formulario1 = new Form2();
+            formulario1.Show();
+        }
     }
 }
