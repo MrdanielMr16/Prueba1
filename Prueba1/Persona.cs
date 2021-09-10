@@ -30,8 +30,9 @@ namespace Prueba1
             Ce = Cedula;
             return Ce;
         }
-        private string GetNombre()
+        private String GetNombre(String Nom)
         {
+            Nom = Nombre;
             return Nombre;
         }
     }
