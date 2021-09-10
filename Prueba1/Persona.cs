@@ -18,5 +18,11 @@ namespace Prueba1
             Cedula = Ce;
             Fecha_Nacimiento = A;
         }
+
+        private int CalcularEdad()
+        {
+            Edad = Fecha_Nacimiento - 2021;
+            return Edad;
+        }
     }
 }
